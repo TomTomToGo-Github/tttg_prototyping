@@ -1,0 +1,23 @@
+{
+    // linting -> flake8
+    "flake8.args": [
+        "--ignore=W291,E266",
+        "--maxLineCount=140"
+    ],
+    // formatting -> black (select code and "shift + alt + f)
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.formatOnSave": false
+    },
+    "black-formatter.args": ["--line-length", "140"],
+    // python terminal
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    // format .json files (select code and "ctrl + k then ctrl + f)
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+}
