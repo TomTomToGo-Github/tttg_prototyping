@@ -592,21 +592,6 @@ class LlmEditDocx(LlmBaseClass, DocxTextEdit):
                 para.text = text_before + replacement_text + text_after
                 print("\nEndresult: ", para.text)
 
-# from langchain.chat_models import ChatOpenAI, ChatPromptTemplate
-# from langchain.prompts import HumanMessagePromptTemplate
-# from langchain.schema.messages import SystemMessage
-
-# chat_template = ChatPromptTemplate.from_messages(
-#     [
-#         SystemMessage(
-#             content=(
-#                 "You are a helpful assistant that re-writes the user's text to "
-#                 "sound more upbeat."
-#             )
-#         ),
-#         HumanMessagePromptTemplate.from_template("Some form of text: {text}"),
-#     ]
-# )
 
 
 if __name__ == '__main__':

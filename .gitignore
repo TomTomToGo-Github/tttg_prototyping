@@ -3,6 +3,15 @@
 *.jpg
 *.docx
 appium_files/
+node_modules/
+crewAI_repo/
+documents_rag/
+marketing_cynthia.json
+work_dir/
+coding/
+OAI_CONFIG_LIST
+llama2.pdf
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
